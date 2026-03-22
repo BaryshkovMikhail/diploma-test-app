@@ -8,10 +8,6 @@ name: Build and Deploy App
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'Dockerfile'
-      - 'nginx.conf'
-      - 'index.html'
   release:
     types: [ published ]
 
